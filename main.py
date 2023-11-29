@@ -8,7 +8,8 @@ class FaceRecognitionSystem:
         self.root = root
         self.root.geometry("1590x790+0+0")  #heightxwidth+x-axis+y=axis
         self.root.title("Face Recognition System")
-
+# Add a comment to demonstrate Git changes
+        print("This is a new line added for Git demonstration.")
 
 if __name__ == "__main__":
     # Create the main Tkinter window
