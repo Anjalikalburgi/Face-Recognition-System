@@ -1,20 +1,18 @@
-
 from tkinter import *
 from tkinter import ttk
 from PIL import Image, ImageTk
 
-class FaceRecognitionSystem:
+class Face_Recognition_System:
 
     def __init__(self, root):
-        # Initialize the root window
         self.root = root
-        self.root.geometry("1590x790+0+0")  # Set the window size and position
-        self.root.title("Face Recognition System")  # Set the window title
+        self.root.geometry("1590x790+0+0")  # heightxwidth+x-axis+y=axis
+        self.root.title("Face Recognition System")
+
+        # Add a comment to demonstrate Git changes
+        print("This is a new line added for Git demonstration.")
 
 if __name__ == "__main__":
-    # Create the main Tkinter window
     root = Tk()
-
-    # Create an instance of the FaceRecognitionSystem class
-        
-        
+    obj = Face_Recognition_System(root)
+    root.mainloop()
